@@ -13,11 +13,10 @@
 		86404E7721D4C7C100F45BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86404E7621D4C7C100F45BE1 /* Assets.xcassets */; };
 		86404E7A21D4C7C200F45BE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86404E7821D4C7C200F45BE1 /* LaunchScreen.storyboard */; };
 		86404E7D21D4C7C200F45BE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86404E7C21D4C7C200F45BE1 /* main.m */; };
-		86404E8421D4C7E700F45BE1 /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 86404E8321D4C7E700F45BE1 /* qidong.mp4 */; };
+		86404E8421D4C7E700F45BE1 /* startup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 86404E8321D4C7E700F45BE1 /* startup.mp4 */; };
 		86404E8721D4C82000F45BE1 /* AVPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86404E8621D4C82000F45BE1 /* AVPlayerController.m */; };
 		86404E8D21D4C86700F45BE1 /* AVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86404E8C21D4C86700F45BE1 /* AVPlayerView.m */; };
 		86404E9021D4CA2600F45BE1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86404E8F21D4CA2600F45BE1 /* RootViewController.m */; };
-		86404E9921D4DB4600F45BE1 /* startup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 86404E9821D4DB4600F45BE1 /* startup.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,14 +30,13 @@
 		86404E7921D4C7C200F45BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86404E7B21D4C7C200F45BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86404E7C21D4C7C200F45BE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		86404E8321D4C7E700F45BE1 /* qidong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qidong.mp4; sourceTree = "<group>"; };
+		86404E8321D4C7E700F45BE1 /* startup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = startup.mp4; sourceTree = "<group>"; };
 		86404E8521D4C82000F45BE1 /* AVPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerController.h; sourceTree = "<group>"; };
 		86404E8621D4C82000F45BE1 /* AVPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerController.m; sourceTree = "<group>"; };
 		86404E8B21D4C86700F45BE1 /* AVPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerView.h; sourceTree = "<group>"; };
 		86404E8C21D4C86700F45BE1 /* AVPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerView.m; sourceTree = "<group>"; };
 		86404E8E21D4CA2600F45BE1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		86404E8F21D4CA2600F45BE1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		86404E9821D4DB4600F45BE1 /* startup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = startup.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +73,7 @@
 				86404E6E21D4C7C000F45BE1 /* AppDelegate.m */,
 				86404E7021D4C7C000F45BE1 /* ViewController.h */,
 				86404E7121D4C7C000F45BE1 /* ViewController.m */,
-				86404E8321D4C7E700F45BE1 /* qidong.mp4 */,
-				86404E9821D4DB4600F45BE1 /* startup.mp4 */,
+				86404E8321D4C7E700F45BE1 /* startup.mp4 */,
 				86404E7321D4C7C000F45BE1 /* Main.storyboard */,
 				86404E7621D4C7C100F45BE1 /* Assets.xcassets */,
 				86404E7821D4C7C200F45BE1 /* LaunchScreen.storyboard */,
@@ -149,11 +146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86404E9921D4DB4600F45BE1 /* startup.mp4 in Resources */,
 				86404E7A21D4C7C200F45BE1 /* LaunchScreen.storyboard in Resources */,
 				86404E7721D4C7C100F45BE1 /* Assets.xcassets in Resources */,
 				86404E7521D4C7C000F45BE1 /* Main.storyboard in Resources */,
-				86404E8421D4C7E700F45BE1 /* qidong.mp4 in Resources */,
+				86404E8421D4C7E700F45BE1 /* startup.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
