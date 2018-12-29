@@ -23,6 +23,14 @@
 }
 
 
+- (CGImageRef)getFirstFrameOfVideoWithURL:(NSURL *)url
+{
+    AVURLAsset* asset = [AVURLAsset URLAssetWithURL:url options:nil];
+    AVAssetImageGenerator* imageGenerator = [AVAssetImageGenerator assetImageGeneratorWithAsset:asset];
+    return [imageGenerator copyCGImageAtTime:CMTimeMake(0, 1) actualTime:nil error:nil];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -35,6 +43,13 @@
     player.actionAtItemEnd = AVPlayerActionAtItemEndNone;
     player.volume = 0.0;
     self.playerView.player = player;
+    
+    //视频播放前会有一闪而过的效果，为了避免这种效果，做以下处理
+    CGImageRef image = [self getFirstFrameOfVideoWithURL:url];
+    self.playerView.layer.contents = (__bridge id)image;
+    self.playerView.layer.contentsGravity = kCAGravityResizeAspectFill;
+    
+    
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playerItemDidReachEnd:) name:AVPlayerItemDidPlayToEndTimeNotification object:[player currentItem]];
     
